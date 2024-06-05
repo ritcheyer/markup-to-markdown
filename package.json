@@ -1,0 +1,17 @@
+{
+  "name": "html-to-markdown-converter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@wcj/html-to-markdown": "^2.1.0",
+    "@wcj/html-to-markdown-cli": "^2.1.0",
+    "open": "^10.1.0"
+  },
+  "type": "module"
+}
