@@ -35,9 +35,9 @@ function createFilePath(page) {
   return `dist${hierarchy}`;
 }
 
-async function main() {
+function main() {
   for (let page of allPages) {
-    await sh(`npx @wcj/html-to-markdown-cli -o="${createFilePath(page)}" ${page}`);
+    sh(`npx @wcj/html-to-markdown-cli -o="${createFilePath(page)}" ${page}`);
   }
 }
 
